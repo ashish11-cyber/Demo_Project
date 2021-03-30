@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myDB">
+  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.20">
+    <root id="1">
+      <ServerVersion>2.4.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="TABLE_NAME"/>
+    <column id="7" parent="6" name="F_NAME">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="8" parent="6" name="L_NAME">
+      <Position>2</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="9" parent="6" name="Dalia">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="10" parent="6" name="Abo Seasha">
+      <Position>4</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="11" parent="6" name="Hermione">
+      <Position>5</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="12" parent="6" name="Granger">
+      <Position>6</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+  </database-model>
+</dataSource>

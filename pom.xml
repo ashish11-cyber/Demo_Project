@@ -1,0 +1,5 @@
+<dependency>
+    <groupId>org.hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>2.5.1</version>
+</dependency>
